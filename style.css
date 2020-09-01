@@ -1,13 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Lobster|Anton|Shadows+Into+Light|Open+Sans|Roboto|Orbitron|Oswald|Raleway|Montserrat|Roboto+Slab|Indie+Flower|Fjalla+One|Bree+Serif|Pacifico|Abril+Fatface);
+@font-face {
+  font-family: 'Source Sans';
+  src: url('https://alligator.io//assets/fonts/variable/SourceSansVariable-Roman.ttf') format("truetype-variations");
+  font-weight: 1 999;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 body {
-  font-family:bree serif;
+  font-family: "FF Meta VF", Helvetica, Arial, sans-serif;
 
 }
 
@@ -42,7 +46,7 @@ nav {
 
 .landing h1 {
   margin: 100px;
-  font-size: 50px;
+  font-size: 40px;
   color: #ae5fce;
 }
 
@@ -112,7 +116,7 @@ nav {
 
   h1 { 
     color: #323031;
-    font-size: 52px;
+    font-size: 40px;
     line-height: 72px;
      margin: 24px; 
      text-align: center;
@@ -241,6 +245,7 @@ nav {
   animation: borderAnimation 0.9s infinite linear reverse;
   padding:20px;
   margin-bottom: 15px;
+  font-size: 1.2rem;
   }
   
   @keyframes borderAnimation {
